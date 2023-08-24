@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(21, 21, 20, 1);
+    font-family: "Clobber Grotesk Light", sans-serif;
+    overflow: hidden;
+    background-image: url('hd-dark-aesthetic-csgo-6gcqmzhaajkk8aue1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .color-bar {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+  }
+  .loading-container {
+    text-align: left;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .loading-text {
+    font-size: 3rem;
+    margin-top: 0;
+  }
+  .loading-subtext {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: white;
+  }
+  .loading-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .loading-button {
+    background-color: rgb(106, 188, 20);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .loading-button:hover {
+    background-color: rgb(90, 162, 17);
+  }
+  nav {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav li {
+        margin: 10px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: 500;
+        transition: color 0.3s;
+    }
+
+    nav a:hover {
+        color: rgb(106, 188, 20);
+    }
+</style>
+</head>
+<body>
+ <div class="color-bar"></div>
+     <nav>
+    <ul>
+        <li><a href="https://domain.xyz/gamesense/forum/dashboard/index.php">Panel</a></li>
+        <li><a href="https://domain.xyz/gamesense/forum/register/index.php">Register</a></li>
+    </ul>
+</nav>
+  <div class="loading-container">
+    <h1 class="loading-text">
+      <span style="color: white;">game</span><span style="color: rgb(106, 188, 20);">sense</span>
+    </h1>
+    <p class="loading-subtext">Join our dedicated community of the premier client provider<br>
+    for the game Rainbow Six Siege. Explore our offerings and make purchases directly on our website!</p>
+    <div class="loading-buttons">
+      <a href="#" class="loading-button">Join Community</a>
+      <a href="#" class="loading-button">Join Discord</a>
+    </div>
+  </div>
+</body>
+</html>

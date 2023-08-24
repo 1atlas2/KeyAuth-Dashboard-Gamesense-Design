@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loading Screen</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(21, 21, 20, 1);
+    font-family: "Clobber Grotesk Light", sans-serif;
+    overflow: hidden;
+    background-image: url('hd-dark-aesthetic-csgo-6gcqmzhaajkk8aue1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  .color-bar {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 255, 0), rgb(0, 0, 255));
+  }
+  .loading-container {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .loading-text {
+    font-size: 3rem;
+    margin-top: 20px;
+  }
+  .loading-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .loading-circle {
+    width: 30px;
+    height: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    border-top: 3px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+</style>
+</head>
+<body>
+  <div class="color-bar"></div>
+  <div class="loading-container">
+    <div class="loading-text">
+      <span style="color: white;">game<span style="color: rgb(106, 188, 20);">sense</span></span>
+    </div>
+    <div class="loading-circle-container">
+      <div class="loading-circle"></div>
+    </div>
+  </div>
+  <script>
+    setTimeout(function() {
+      window.location.href = "https://domain.xyz/gamesense/home.html"; 
+    }, 6000);
+  </script>
+</body>
+</html>
