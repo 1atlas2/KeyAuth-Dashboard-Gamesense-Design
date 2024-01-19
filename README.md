@@ -1,6 +1,6 @@
 # KeyAuth PHP Example
 PHP example for the https://keyauth.cc authentication system.
-I completed this small project within a day. It's a user dashboard for KeyAuth, featuring a modern reinterpretation of the original Gamesense design
+I completed this small project within 3 day's. It's a user dashboard for KeyAuth, featuring a modern reinterpretation of the original Gamesense design
 # Video Tutorial:
 https://www.youtube.com/watch?feature=player_embedded&v=hU6yXGR5R1Y
 # Original Repository:
